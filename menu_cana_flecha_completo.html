@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú Caña Flecha</title>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9e2d8;
+}
+
+.header {
+  text-align: center;
+  padding: 30px 0 10px 0;
+}
+
+.logo {
+  max-width: 180px;
+}
+
+/* Marca de agua */
+body::before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.12;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.seccion {
+  position: relative;
+  z-index: 1;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.plato {
+  margin-bottom: 30px;
+}
+
+.plato-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.precio {
+  font-weight: bold;
+}
+
+.descripcion {
+  line-height: 1.6;
+}
+/* Barra de navegación */
+/* Navegación centrada tipo cápsula */
+
+.menu-nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;   /* CENTRADO */
+  flex-wrap: wrap;           /* Que bajen si no caben */
+  gap: 10px;
+  border-bottom: 1px solid #eee;
+  z-index: 10;
+}
+
+.menu-nav a {
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 30px;       /* Forma cápsula */
+  background: #f2ece4;
+  color: #333;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.menu-nav a:hover {
+  background: #a67c52;
+  color: white;
+  transform: translateY(-2px);
+}
+
+</style>
+
+</head>
+<body>
+
+<header class="header">
+  <img src="logo.png" alt="Caña Flecha" class="logo">
+</header>
+<nav class="menu-nav">
+  <a href="#entradas">Entradas</a>
+  <a href="#cremas">Cremas</a>
+  <a href="#arroces">Arroces</a>
+  <a href="#salmon">Salmón</a>
+  <a href="#pastas">Pastas</a>
+  <a href="#pescados">Pescados</a>
+  <a href="#res">Res</a>
+  <a href="#ensaladas">Ensaladas</a>
+  <a href="#rapiditos">Rapiditos</a>
+  <a href="#postres">Postres</a>
+  <a href="#infantil">Menú Infantil</a>
+  <a href="#cocteles">Cócteles</a>
+<a href="#micheladas">Micheladas</a>
+<a href="#shots">Shots</a>
+<a href="#licores">Licores</a>
+<a href="#vinos">Vinos</a>
+<a href="#cervezas-gaseosas">Cervezas</a>
+<a href="#limonadas">Limonadas</a>
+<a href="#bebidas-sin-alcohol">Jugos</a>
+
+
+
+</nav>
+
+<body>
+
+
+
+<!-- ================== ENTRADAS ================== -->
+<section id="entradas" class="seccion">
+<h2>ENTRADAS</h2>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>BLANCO DE ORILLA</h3>
+    <span class="precio">40K</span>
+  </div>
+  <p class="subtitulo">Ceviche de róbalo y leche de coco</p>
+  <p class="descripcion">
+    El frescor del Golfo en un róbalo fresco traído por pescadores locales,
+    curado en sal y limón, abrazado por leche de coco sedosa, cebolla morada
+    y ají costeño. Acompañado de una leche de tigre intensa que despierta
+    los sentidos como brisa de mar al amanecer.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>BRISA DEL MANGLAR</h3>
+    <span class="precio">35K</span>
+  </div>
+  <p class="subtitulo">Gyosas x5</p>
+  <p class="descripcion">
+    Doradas y delicadas, rellenas de camarón y pesca blanca.
+    Coronadas con suero costeño de acidez suave, evocan el susurro
+    del viento entre manglares y el vaivén tranquilo de la marea.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>TRES GOLPES DEL CARIBE</h3>
+    <span class="precio">35K</span>
+  </div>
+  <p class="subtitulo">Tostones de guineo con pulpo acevichado</p>
+  <p class="descripcion">
+    La crocancia del tostón se encuentra con la frescura del pulpo marinado
+    y el perfume del ají dulce. Un plato que despierta memoria,
+    patio, pilón y conversación frente al mar.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>MESA DE PUEBLO</h3>
+    <span class="precio">30K</span>
+  </div>
+  <p class="subtitulo">Antojitos colombianos</p>
+  <p class="descripcion">
+    Carimañolas, papas rellenas y aborrajados que saben a reunión familiar.
+    Servidos con ají de lulo y suero artesanal, como en mesas largas
+    donde siempre hay manos que comparten.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>TIERRA FIRME</h3>
+    <span class="precio">45K</span>
+  </div>
+  <p class="subtitulo">Tartar de res</p>
+  <p class="descripcion">
+    Carne cortada a cuchillo, aderezada con mostaza de la casa
+    y coronada con crocancia costeña. Un homenaje a los campos
+    ganaderos que conviven con el mar cercano.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>BRISA DE PALENQUE</h3>
+    <span class="precio">38K</span>
+  </div>
+  <p class="subtitulo">Taquitos de camarón</p>
+  <p class="descripcion">
+    Tortillas doradas que envuelven camarones salteados al ajo
+    y limón criollo, coronados con repollo fresco, pico de gallo
+    costeño y salsa suave de cocina ancestral.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>REDES DEL GOLFO</h3>
+    <span class="precio">42K</span>
+  </div>
+  <p class="subtitulo">Cóctel de camarón</p>
+  <p class="descripcion">
+    Camarones rosados bañados en salsa fresca de tomate, limón
+    y cilantro. Frío, vibrante y honesto, con carácter salino
+    del Golfo de Morrosquillo.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>BLANCO DE SAFARI</h3>
+    <span class="precio">40K</span>
+  </div>
+  <p class="subtitulo">Ceviche mixto</p>
+  <p class="descripcion">
+    Pesca blanca y camarón curados en sal y limón,
+    con cebolla morada y ají costeño. Servido con leche
+    de tigre intensa que despierta apetito y memoria.
+  </p>
+</div>
+
+</section>
+
+<!-- ================== CREMAS Y CAZUELAS ================== -->
+<section id="cremas" class="seccion">
+<h2>CREMAS Y CAZUELAS</h2>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>BRISA DORADA DE COVEÑAS</h3>
+    <span class="precio">25K</span>
+  </div>
+  <p class="subtitulo">Crema de ahuyama con camarón</p>
+  <p class="descripcion">
+    Ahuyama asada lentamente hasta volverse seda,
+    abrazada por camarones salteados que evocan
+    la faena temprana del pescador.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>ROJO ATARDECER DEL MORROSQUILLO</h3>
+    <span class="precio">25K</span>
+  </div>
+  <p class="subtitulo">Crema de tomate</p>
+  <p class="descripcion">
+    Tomates maduros cocidos sin prisa,
+    concentrando sabor y memoria.
+    Sencilla, honesta y profunda como el atardecer.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>FOGÓN DEL GOLFO</h3>
+    <span class="precio">90K</span>
+  </div>
+  <p class="subtitulo">Cazuela de mariscos con langosta</p>
+  <p class="descripcion">
+    Camarones, calamares, pesca blanca y moluscos
+    cocidos lentamente en leche de coco y sofrito costero.
+    Un plato que reúne y reconforta.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>BRUMA DE LANGOSTA Y CAMARÓN</h3>
+    <span class="precio">70K</span>
+  </div>
+  <p class="subtitulo">Cazuela de camarón y langostino</p>
+  <p class="descripcion">
+    Camarones y langostinos en leche de coco sedosa,
+    hierbas frescas y sofrito criollo.
+    Profunda, envolvente y elegante.
+  </p>
+</div>
+
+</section>
+<!-- ================== ARROCES ================== -->
+<section id="arroces" class="seccion">
+<h2>ARROCES</h2>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>OLA Y SABANA</h3>
+    <span class="precio">65K</span>
+  </div>
+  <p class="subtitulo">Arroz caldoso de mar y tierra</p>
+  <p class="descripcion">
+    Mariscos frescos y cortes selectos cocidos en caldo profundo,
+    donde se encuentran el aroma del campo y la brisa marina.
+    Cremoso, abundante y lleno de carácter.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>CANTO DORADO</h3>
+    <span class="precio">60K</span>
+  </div>
+  <p class="subtitulo">Arroz meloso de camarón</p>
+  <p class="descripcion">
+    Camarones salteados en sofrito criollo y arroz cocido lentamente
+    hasta lograr textura sedosa. Cada cucharada es mar concentrado.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>SUDOR DEL PUERTO</h3>
+    <span class="precio">55K</span>
+  </div>
+  <p class="subtitulo">Arroz con pollo costeño</p>
+  <p class="descripcion">
+    Pollo jugoso, verduras frescas y especias suaves,
+    cocidos en caldo aromático como los almuerzos
+    que esperan después de una jornada de mar.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>MAR Y BRAZA</h3>
+    <span class="precio">160K</span>
+  </div>
+  <p class="subtitulo">Arroz especial de la casa (para compartir)</p>
+  <p class="descripcion">
+    Langosta, camarón, pulpo y pesca blanca en arroz cremoso
+    terminado a la brasa. Un plato generoso pensado para celebrar.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>RUTA DEL DRAGÓN COSTEÑO</h3>
+    <span class="precio">52K</span>
+  </div>
+  <p class="subtitulo">Arroz oriental caribeño</p>
+  <p class="descripcion">
+    Inspirado en la mezcla cultural del puerto:
+    vegetales salteados, proteína jugosa y arroz al wok
+    con acento costeño.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>NEGRO PROFUNDO</h3>
+    <span class="precio">65K</span>
+  </div>
+  <p class="subtitulo">Arroz negro con mariscos</p>
+  <p class="descripcion">
+    Tinta de calamar que oscurece el arroz
+    y realza sabores intensos del océano.
+    Misterioso, elegante y profundamente marino.
+  </p>
+</div>
+
+</section>
+
+<!-- ================== SALMÓN ================== -->
+<section id="salmon" class="seccion">
+<h2>SALMÓN</h2>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>SALMÓN COSTA SERENA</h3>
+    <span class="precio">70K</span>
+  </div>
+  <p class="subtitulo">Salmón sellado en mantequilla</p>
+  <p class="descripcion">
+    Filete jugoso con piel crujiente,
+    acompañado de vegetales frescos y salsa ligera
+    que equilibra suavidad y frescura.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>SALMÓN EN COSTRA DE FRUTOS SECOS</h3>
+    <span class="precio">70K</span>
+  </div>
+  <p class="subtitulo">Costra crocante y corazón suave</p>
+  <p class="descripcion">
+    Cubierto con mezcla tostada de frutos secos,
+    sellado al punto exacto. Crujiente por fuera,
+    mantequilloso por dentro.
+  </p>
+</div>
+
+</section>
+
+<!-- ================== PASTAS ================== -->
+<section id="pastas" class="seccion">
+<h2>PASTAS</h2>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>CAMINO DEL MONZÓN</h3>
+    <span class="precio">62K</span>
+  </div>
+  <p class="subtitulo">Pasta en salsa cremosa de mariscos</p>
+  <p class="descripcion">
+    Camarones y moluscos en crema suave,
+    con perfume de vino blanco y hierbas frescas.
+    Rica, envolvente y elegante.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>PERLA DEL OCÉANO</h3>
+    <span class="precio">60K</span>
+  </div>
+  <p class="subtitulo">Pasta con camarón</p>
+  <p class="descripcion">
+    Pasta al dente abrazada por salsa ligera de coco
+    y camarones salteados. Sutil, fresca y aromática.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>AZUL DE LA SABANA</h3>
+    <span class="precio">58K</span>
+  </div>
+  <p class="subtitulo">Pasta con pollo</p>
+  <p class="descripcion">
+    Pollo jugoso en salsa cremosa especiada,
+    evocando la tranquilidad del campo cercano al mar.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>BLANCURA DE MAREA</h3>
+    <span class="precio">65K</span>
+  </div>
+  <p class="subtitulo">Pasta blanca con mariscos</p>
+  <p class="descripcion">
+    Mezcla delicada de frutos del mar
+    en salsa blanca suave y aromática.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>MONTE Y VIÑEDO</h3>
+    <span class="precio">55K</span>
+  </div>
+  <p class="subtitulo">Pasta en salsa de vino tinto</p>
+  <p class="descripcion">
+    Reducción de vino y carne tierna,
+    profunda y reconfortante como sobremesa larga.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>FETTUCCINE DEL PUERTO VIEJO</h3>
+    <span class="precio">60K</span>
+  </div>
+  <p class="subtitulo">Fettuccine en salsa especial de la casa</p>
+  <p class="descripcion">
+    Pasta fresca bañada en salsa cremosa,
+    con toque secreto del fogón.
+  </p>
+</div>
+
+</section>
+
+<!-- ================== PESCADOS Y MARISCOS ================== -->
+<section id="pescados" class="seccion">
+<h2>PESCADOS Y MARISCOS</h2>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>MAR CRIOLLO</h3>
+    <span class="precio">60K</span>
+  </div>
+  <p class="subtitulo">Róbalo relleno con sofrito costero</p>
+  <p class="descripcion">
+    Delicioso róbalo relleno de un sofrito costero acompañado con arroz meloso de coco,
+    patacones y ensalada fresca. Fusión de dos mundos: el mar que alimenta y la tradición
+    sabanera que honra el fogón. Sellado con carácter y servido con equilibrio profundo.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>CRUJIR DEL MAR</h3>
+    <span class="precio">45K</span>
+  </div>
+  <p class="subtitulo">Langostinos rebosados</p>
+  <p class="descripcion">
+    Langostinos jugosos cubiertos en tempura ligera. Crujen al morder,
+    como madera seca en el fogón, acompañados de salsa cítrica que limpia
+    el paladar y pide otro bocado.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>LOMO ESCARLATA</h3>
+    <span class="precio">65K</span>
+  </div>
+  <p class="subtitulo">Atún encostrado de ajonjolí con risotto de chontaduro</p>
+  <p class="descripcion">
+    Filete de atún sellado con costra de ajonjolí y especias,
+    acompañado de un risotto cremoso de chontaduro.
+    Inspirado en las jornadas de pesca en Tolú,
+    donde el atún cae rojo como un sol al amanecer.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>PARGO ROJO A LA BRASA</h3>
+    <span class="precio">75K</span>
+  </div>
+  <p class="subtitulo">Pargo rojo con arroz meloso de coco</p>
+  <p class="descripcion">
+    Delicioso pargo rojo acompañado de arroz meloso de coco,
+    patacón y ensalada fresca. Dorado, crujiente y fragante,
+    como esas fritangas de río preparadas en fogones abiertos.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>RÓBALO A LA BRASA</h3>
+    <span class="precio">65K</span>
+  </div>
+  <p class="subtitulo">Róbalo fresco tradicional</p>
+  <p class="descripcion">
+    Delicioso róbalo acompañado de arroz meloso de coco,
+    patacón y ensalada fresca. Frito al punto exacto donde
+    la piel canta y la carne se vuelve mantequilla.
+    Sabor de puerto antiguo y memorias frente al mar.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>FOGÓN DE MAREA</h3>
+    <span class="precio">85K</span>
+  </div>
+  <p class="subtitulo">Langosta a la marinera</p>
+  <p class="descripcion">
+    Langosta cocinada lentamente en salsa de tomate criollo,
+    vino y hierbas frescas. Untuosa, profunda y ceremonial,
+    como los grandes platos que se sirven para celebrar.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>CABRITO DE MAR</h3>
+    <span class="precio">100K</span>
+  </div>
+  <p class="subtitulo">Pargo en salsa marinera especiada</p>
+  <p class="descripcion">
+    Pargo rojo bañado en reducción especiada estilo cabrito,
+    una fusión audaz entre mar y sabana.
+    Potente, aromático y profundamente regional.
+  </p>
+</div>
+
+<div class="plato">
+  <div class="plato-header">
+    <h3>MAREA Y BRASA</h3>
+    <span class="precio">75K</span>
+  </div>
+  <p class="subtitulo">Risotto de queso con pulpo a la brasa</p>
+  <p class="descripcion">
+    Pulpo tierno marcado a la brasa servido sobre risotto
+    de quesos cremosos y envolventes. Una salsa suave
+    de acento marino une el conjunto como la marea
+    besando la orilla.
+  </p>
+</div>
+
+</section>
+<!-- ================== RES Y COSTILLA ================== -->
+<section id="res" class="seccion">
+<h2>RES Y COSTILLA</h2>
+
+<div class="plato"><div class="plato-header"><h3>AHUMADO DEL PUERTO</h3><span class="precio">60K</span></div>
+<p class="descripcion">Corte jugoso con notas ahumadas y salsa profunda de la casa.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>ROMERO DEL FOGÓN VIEJO</h3><span class="precio">65K</span></div>
+<p class="descripcion">Carne sellada con romero fresco y mantequilla especiada.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>RAÍZ DEL CAFÉ</h3><span class="precio">65K</span></div>
+<p class="descripcion">Corte bañado en reducción de café y especias suaves.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>EL PATRÓN RIB EYE NACIONAL</h3><span class="precio">80K</span></div>
+<p class="descripcion">Rib eye nacional con marmoleo equilibrado y sabor profundo.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>EL PATRÓN RIB EYE ANGUS</h3><span class="precio">160K</span></div>
+<p class="descripcion">Angus seleccionado, potente y perfectamente sellado.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>SEÑORÍO</h3><span class="precio">70K</span></div>
+<p class="descripcion">Corte fino de textura suave y sabor elegante.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>NEW YORK NACIONAL</h3><span class="precio">80K</span></div>
+<p class="descripcion">Clásico corte firme, jugoso y lleno de carácter.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>NEW YORK ANGUS</h3><span class="precio">160K</span></div>
+<p class="descripcion">Angus premium con punto exacto y sabor intenso.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>CORAZÓN DE SABANA</h3><span class="precio">65K</span></div>
+<p class="descripcion">Carne tierna que honra la tradición ganadera regional.</p></div>
+
+</section>
+
+<!-- ================== ENSALADAS ================== -->
+<section id="ensaladas" class="seccion">
+<h2>ENSALADAS</h2>
+
+<div class="plato"><div class="plato-header"><h3>MAREA VERDE DEL MORROSQUILLO</h3><span class="precio">48K</span></div>
+<p class="descripcion">Hojas frescas, frutos del mar y vinagreta cítrica.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>CLÁSICA DE LA CASA</h3><span class="precio">35K</span></div>
+<p class="descripcion">Lechugas frescas, tomate, cebolla y aderezo artesanal.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>REDES DE ORILLA</h3><span class="precio">40K</span></div>
+<p class="descripcion">Ensalada fresca con camarones y toque de limón criollo.</p></div>
+
+</section>
+
+<!-- ================== RAPIDITOS ================== -->
+<section id="rapiditos" class="seccion">
+<h2>RAPIDITOS</h2>
+
+<div class="plato"><div class="plato-header"><h3>ROAST LEGEND</h3><span class="precio">35K</span></div>
+<p class="descripcion">Sándwich de roast beef con salsa especial y pan tostado.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>ITALIANÍSIMO SUPREMO</h3><span class="precio">35K</span></div>
+<p class="descripcion">Pan artesanal con embutidos italianos y queso fundido.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>ANGUS DEL PUERTO</h3><span class="precio">40K</span></div>
+<p class="descripcion">Hamburguesa angus jugosa con vegetales frescos.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>COROZO AHUMADO</h3><span class="precio">42K</span></div>
+<p class="descripcion">Sándwich con notas ahumadas y salsa dulce de corozo.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>CUATRO VIENTOS</h3><span class="precio">40K</span></div>
+<p class="descripcion">Hamburguesa especial con mezcla de quesos y salsa de la casa.</p></div>
+
+</section>
+
+<!-- ================== POSTRES ================== -->
+<section id="postres" class="seccion">
+<h2>POSTRES</h2>
+
+<div class="plato"><div class="plato-header"><h3>DULCE DE BARÚ</h3><span class="precio">20K</span></div>
+<p class="descripcion">Postre tropical suave y refrescante con frutas del Caribe.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>PERLAS DEL SINÚ ROJO</h3><span class="precio">20K</span></div>
+<p class="descripcion">Delicado postre con notas frutales y textura sedosa.</p></div>
+
+</section>
+
+<!-- ================== MENÚ INFANTIL ================== -->
+<section id="infantil" class="seccion">
+<h2>MENÚ INFANTIL</h2>
+
+<div class="plato"><div class="plato-header"><h3>CAPITÁN PEQUEÑO DE COVEÑAS</h3><span class="precio">25K</span></div>
+<p class="descripcion">Pechuga rellena dorada, suave por dentro y crujiente por fuera, con risotto cremoso.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>CHICKEN TENDERS</h3><span class="precio">25K</span></div>
+<p class="descripcion">Trocitos de pechuga jugosa empanizados y fritos al punto exacto.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>MINI HAMBURGUESA</h3><span class="precio">25K</span></div>
+<p class="descripcion">Carne jugosa, queso fundido y pan suave en tamaño perfecto.</p></div>
+
+<div class="plato"><div class="plato-header"><h3>PEQUEÑO FOGÓN</h3><span class="precio">25K</span></div>
+<p class="descripcion">Mini hamburguesa de pollo crispy, crujiente por fuera y suave por dentro.</p></div>
+
+</section>
+<!-- ================== BEBIDAS Y LICORES ================== -->
+<section id="licores" class="seccion">
+<h2>LICORES</h2>
+
+<!-- AGUARDIENTE -->
+
+<h3 style="margin-top:40px;">AGUARDIENTE</h3>
+
+<div class="plato"><div class="plato-header"><h3>Aguardiente Manzanares 375ml</h3><span class="precio">$90.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Aguardiente Manzanares 750ml</h3><span class="precio">$140.000</span></div></div>
+
+<div class="plato"><div class="plato-header"><h3>Aguardiente Antioqueño Azul 375ml</h3><span class="precio">$90.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Aguardiente Antioqueño Azul 750ml</h3><span class="precio">$140.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Aguardiente Antioqueño Azul Tetrapack 1050ml</h3><span class="precio">$90.000</span></div></div>
+
+<div class="plato"><div class="plato-header"><h3>Aguardiente Antioqueño Rojo 750ml</h3><span class="precio">$140.000</span></div></div>
+
+<div class="plato"><div class="plato-header"><h3>Aguardiente Antioqueño Verde 375ml</h3><span class="precio">$90.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Aguardiente Antioqueño Verde 750ml</h3><span class="precio">$140.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Aguardiente Antioqueño Verde Tetrapack 1050ml</h3><span class="precio">$160.000</span></div></div>
+
+<div class="plato"><div class="plato-header"><h3>Aguardiente Antioqueño Real 750ml</h3><span class="precio">$140.000</span></div></div>
+
+<!-- WHISKY -->
+
+<h3 style="margin-top:60px;">WHISKY</h3>
+
+<div class="plato"><div class="plato-header"><h3>Johnnie Walker 18 Años</h3><span class="precio">$610.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Johnnie Walker Blue Label</h3><span class="precio">$1.600.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Johnnie Walker Black Label 700ml</h3><span class="precio">$360.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Johnnie Walker Double Black 700ml</h3><span class="precio">$390.000</span></div></div>
+
+<div class="plato"><div class="plato-header"><h3>Buchanan’s Deluxe 750ml</h3><span class="precio">$360.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Buchanan’s Master 750ml</h3><span class="precio">$390.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Buchanan’s Special Reserve 18 Años 750ml</h3><span class="precio">$750.000</span></div></div>
+
+<div class="plato"><div class="plato-header"><h3>Old Parr 12 Años 750ml</h3><span class="precio">$380.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Old Parr 18 Años 750ml</h3><span class="precio">$650.000</span></div></div>
+
+<div class="plato"><div class="plato-header"><h3>The Macallan Double Cask 700ml</h3><span class="precio">$550.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>The Macallan Triple Cask 700ml</h3><span class="precio">$575.000</span></div></div>
+
+<!-- RON -->
+
+<h3 style="margin-top:60px;">RON</h3>
+
+<div class="plato"><div class="plato-header"><h3>Ron Medellín 8 Años 750ml</h3><span class="precio">$150.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Ron Medellín 12 Años 750ml</h3><span class="precio">$180.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Ron Medellín 19 Años Gran Solera 750ml</h3><span class="precio">$420.000</span></div></div>
+
+<div class="plato"><div class="plato-header"><h3>Ron Viejo de Caldas Carta de Oro 8 Años 375ml</h3><span class="precio">$150.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Ron Viejo de Caldas Carta de Oro 8 Años 750ml</h3><span class="precio">$260.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Ron Viejo de Caldas 15 Años Gran Reserva Especial 750ml</h3><span class="precio">$300.000</span></div></div>
+
+<!-- TEQUILA -->
+
+<h3 style="margin-top:60px;">TEQUILA</h3>
+
+<div class="plato"><div class="plato-header"><h3>Tequila 1800 Añejo 700ml</h3><span class="precio">$480.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Tequila 1800 Cristalino 700ml</h3><span class="precio">$450.000</span></div></div>
+
+<div class="plato"><div class="plato-header"><h3>Tequila Don Julio 750ml</h3><span class="precio">$750.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Tequila Don Julio Blanco 750ml</h3><span class="precio">$550.000</span></div></div>
+<div class="plato"><div class="plato-header"><h3>Tequila Don Julio Reposado 750ml</h3><span class="precio">$600.000</span></div></div>
+
+<div class="plato"><div class="plato-header"><h3>Tequila Maestro Dobel</h3><span class="precio">$600.000</span></div></div>
+
+<!-- VODKA -->
+
+<h3 style="margin-top:60px;">VODKA</h3>
+
+<div class="plato"><div class="plato-header"><h3>Vodka Belvedere 700ml</h3><span class="precio">$440.000</span></div></div>
+
+</section>
+
+<section id="vinos" class="seccion">
+<h2>VINOS</h2>
+
+<!-- ================== VINOS ================== -->
+
+<h3 style="margin-top:60px;">VINOS TINTOS</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Castillo Molina Carmenere</h3>
+<span class="precio">$165.000</span></div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Ramón Bilbao Crianza</h3>
+<span class="precio">$140.000</span></div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Finca Las Moras Malbec</h3>
+<span class="precio">$110.000</span></div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Santa Carolina Cabernet Sauvignon</h3>
+<span class="precio">$110.000</span></div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Santa Carolina Carmenere</h3>
+<span class="precio">$100.000</span></div></div>
+
+
+<h3 style="margin-top:60px;">VINOS BLANCOS</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Santa Carolina Sauvignon Blanc</h3>
+<span class="precio">$95.000</span></div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Ramón Bilbao Verdejo</h3>
+<span class="precio">$140.000</span></div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Castillo Molina Chardonnay</h3>
+<span class="precio">$170.000</span></div></div>
+
+
+<h3 style="margin-top:60px;">VINO FRIZZANTE</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Lambrusco Reggiano Tinto</h3>
+<span class="precio">$130.000</span></div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Lambrusco Reggiano Rosé</h3>
+<span class="precio">$150.000</span></div></div>
+
+
+<h3 style="margin-top:60px;">VINO ROSÉ</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Santa Carolina Rosé</h3>
+<span class="precio">$120.000</span></div></div>
+
+
+<h3 style="margin-top:60px;">ESPUMOSOS</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Chandon Extra Brut</h3>
+<span class="precio">$140.000</span></div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Chandon Rosé</h3>
+<span class="precio">$150.000</span></div></div>
+
+
+<h3 style="margin-top:60px;">POR COPA</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Copa de Vino (Tinto o Blanco)</h3>
+<span class="precio">$25.000</span></div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Tinto de Verano</h3>
+<span class="precio">$30.000</span></div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Copa Sangría</h3>
+<span class="precio">$42.000</span></div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Jarra Sangría</h3>
+<span class="precio">$160.000</span></div></div>
+</section>
+
+<section id="cocteles" class="seccion">
+<h2>CÓCTELES</h2>
+<h3 style="margin-top:40px;">COCTELES DE LA CASA</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Brisa de la Sabana</h3>
+<span class="precio">$30.000</span></div>
+<p class="descripcion">Herbal y tropical.</p></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Maguey y Flecha</h3>
+<span class="precio">$34.000</span></div>
+<p class="descripcion">Ahumado y ancestral.</p></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Rocío del Caribe</h3>
+<span class="precio">$35.000</span></div>
+<p class="descripcion">Botánico y ligero.</p></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Safari de Esmeralda</h3>
+<span class="precio">$30.000</span></div>
+<p class="descripcion">Refrescante y vibrante.</p></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Carmesí de Caña</h3>
+<span class="precio">$35.000</span></div>
+<p class="descripcion">Intenso y aromático.</p></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Lluvia de Verano</h3>
+<span class="precio">$36.000</span></div>
+<p class="descripcion">Dulce y tropical.</p></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Margarita Espejismo de Melón</h3>
+<span class="precio">$65.000</span></div>
+<p class="descripcion">Cítrica y fresca.</p></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Mojito Verde del Caribe</h3>
+<span class="precio">$32.000</span></div>
+<p class="descripcion">Clásico caribeño con hierbabuena.</p></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Moscow Mule</h3>
+<span class="precio">$35.000</span></div>
+<p class="descripcion">Vodka, jengibre y limón.</p></div>
+
+<section id="bebidas-sin-alcohol" class="seccion">
+<h2>JUGOS Y MICHELADAS</h2>
+
+<h3 style="margin-top:40px;">JUGOS EN AGUA</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Jugo de Corozo</h3>
+<span class="precio">$12.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Jugo de Maracuyá</h3>
+<span class="precio">$12.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Jugo de Fresa</h3>
+<span class="precio">$12.000</span>
+</div></div>
+
+
+<h3 style="margin-top:50px;">JUGOS EN LECHE</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Maracuyá en Leche</h3>
+<span class="precio">$14.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Fresa en Leche</h3>
+<span class="precio">$14.000</span>
+</div></div>
+
+
+<h3 style="margin-top:50px;">JUGOS TROPICALES</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Mix Tropical</h3>
+<span class="precio">$14.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Mongocuyá</h3>
+<span class="precio">$14.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Púrpura Tropical</h3>
+<span class="precio">$14.000</span>
+</div></div>
+
+
+<h3 style="margin-top:50px;">MICHELADAS</h3>
+<div id="micheladas"></div>
+<div class="plato"><div class="plato-header">
+<h3>Michelada Clásica</h3>
+<span class="precio">$18.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Especial</h3>
+<span class="precio">$22.000</span>
+</div></div>
+
+<h3 style="margin-top:50px;">MICHELADAS TRADICIONALES (CERVEZAS)</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Soda</h3>
+<span class="precio">$14.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Canada Dry</h3>
+<span class="precio">$14.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Coronita</h3>
+<span class="precio">$15.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Club Colombia</h3>
+<span class="precio">$15.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Corona</h3>
+<span class="precio">$19.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Stella</h3>
+<span class="precio">$19.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Smirnoff</h3>
+<span class="precio">$23.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Águila Original</h3>
+<span class="precio">$15.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Águila Light</h3>
+<span class="precio">$15.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Poker</h3>
+<span class="precio">$15.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Costeñita</h3>
+<span class="precio">$13.000</span>
+</div></div>
+
+
+<h3 style="margin-top:60px;">MICHELADAS SABORIZADAS</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Saborizada Pasión de Jamaica</h3>
+<span class="precio">$16.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Saborizada Perla del Oriente</h3>
+<span class="precio">$16.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Saborizada Maracú-Honey Fizz</h3>
+<span class="precio">$16.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Michelada Saborizada Ácida Tentación</h3>
+<span class="precio">$16.000</span>
+</div></div>
+  
+</section>
+<section id="cervezas-gaseosas" class="seccion">
+<h2>CERVEZAS Y GASEOSAS</h2>
+
+<h3 style="margin-top:40px;">CERVEZAS</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Coronita</h3>
+<span class="precio">$10.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Corona</h3>
+<span class="precio">$14.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Stella</h3>
+<span class="precio">$14.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Club Colombia</h3>
+<span class="precio">$14.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>JP Chenet</h3>
+<span class="precio">$18.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Smirnoff</h3>
+<span class="precio">$18.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Águila Light</h3>
+<span class="precio">$10.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Águila Original</h3>
+<span class="precio">$10.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Costeñita</h3>
+<span class="precio">$8.000</span>
+</div></div>
+
+<h3 style="margin-top:50px;">GASEOSAS Y BEBIDAS</h3>
+
+<div class="plato"><div class="plato-header">
+<h3>Coca Cola</h3>
+<span class="precio">$6.500</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Coca Cola Zero</h3>
+<span class="precio">$6.500</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Sprite</h3>
+<span class="precio">$6.500</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Kola Román</h3>
+<span class="precio">$6.500</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Quatro</h3>
+<span class="precio">$6.500</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Manzana Postobón</h3>
+<span class="precio">$6.500</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Uva Postobón</h3>
+<span class="precio">$6.500</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Colombiana Postobón</h3>
+<span class="precio">$6.500</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Agua en Botella</h3>
+<span class="precio">$5.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Soda</h3>
+<span class="precio">$6.500</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Canada Dry</h3>
+<span class="precio">$6.500</span>
+</div></div>
+
+</section>
+<section id="limonadas" class="seccion">
+<h2>LIMONADAS</h2>
+
+<div class="plato"><div class="plato-header">
+<h3>Limonada Natural</h3>
+<span class="precio">$12.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Limonada Cerezada</h3>
+<span class="precio">$14.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Limonada Coco</h3>
+<span class="precio">$16.000</span>
+</div></div>
+
+</section>
+<section id="shots" class="seccion">
+<h2>SHOTS</h2>
+
+<div class="plato"><div class="plato-header">
+<h3>Tequila Jose Cuervo</h3>
+<span class="precio">$25.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Don Julio Blanco</h3>
+<span class="precio">$45.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Buchanan’s Master</h3>
+<span class="precio">$35.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Buchanan’s Deluxe</h3>
+<span class="precio">$32.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Ginebra Bulldog</h3>
+<span class="precio">$30.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Ginebra Gordon’s</h3>
+<span class="precio">$25.000</span>
+</div></div>
+
+<div class="plato"><div class="plato-header">
+<h3>Old Parr</h3>
+<span class="precio">$35.000</span>
+</div></div>
+
+</section>
+</body>
+</html>
+
